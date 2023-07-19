@@ -10,7 +10,7 @@ def is_valid_move(sudoku, row, col, num):
 
     return True
 
-sudoku = sl.sudokus[0]
+sudoku = sl.generate_sudoku()
 
 while True:
     sl.display_sudoku(sudoku)
